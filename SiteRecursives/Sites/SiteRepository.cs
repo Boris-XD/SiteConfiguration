@@ -15,7 +15,6 @@ namespace SiteRecursives.Service.Sites
         public SiteMap GetSiteMap()
         {
             var siteMapSection = _configuration.GetSection(SiteMapSectionName);
-
             return siteMapSection.Get<SiteMap>();
         }
     }

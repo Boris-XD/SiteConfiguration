@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteRecursives", "SiteRecursives\SiteRecursives.csproj", "{AC042055-938A-4B84-A65B-38BF298D53D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteRecursives.Service", "SiteRecursives.Service\SiteRecursives.Service.csproj", "{61F9229F-FBC4-485F-8477-5EC3A8C5D1CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AC042055-938A-4B84-A65B-38BF298D53D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC042055-938A-4B84-A65B-38BF298D53D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC042055-938A-4B84-A65B-38BF298D53D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F9229F-FBC4-485F-8477-5EC3A8C5D1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F9229F-FBC4-485F-8477-5EC3A8C5D1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F9229F-FBC4-485F-8477-5EC3A8C5D1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F9229F-FBC4-485F-8477-5EC3A8C5D1CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
