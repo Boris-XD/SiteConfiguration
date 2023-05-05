@@ -1,0 +1,483 @@
+{
+  "SiteMap": {
+    "Entries": [
+      {
+        "Id": "Dashboard",
+        "Name": "Dashboard",
+        "Url": "/v2/mgmt/dashboard/dashboard.aspx",
+        "DependantModules": [],
+        "IsActive": true,
+        "Entries": [
+          {
+            "Id": "SiteMap",
+            "Name": "Site Map",
+            "Url": "/v2/mgmt/global/sitemap.aspx",
+            "DependantModules": [],
+            "IsActive": true,
+            "Entries": [
+              {
+                "Id": "Dashboard Site Map 1",
+                "Name": "Dashboard",
+                "Url": "/v2/mgmt/dashboard/dashboard.aspx",
+                "DependantModules": []
+              },
+              {
+                "Id": "Dashboard Site Map 2",
+                "Name": "Dashboard",
+                "Url": "/v2/mgmt/dashboard/dashboard.aspx",
+                "DependantModules": [],
+                "IsActive": true
+              }
+            ]
+          },
+          {
+            "Id": "MyProfile",
+            "Name": "My Profile",
+            "Url": "/v2/mgmt/employees/editprofile.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "LocalLinks",
+            "Name": "Local Links",
+            "Url": "/v2/mgmt/locallinks/locallinks.aspx",
+            "DependantModules": [ "LocalLinks" ]
+          }
+        ]
+      },
+      {
+        "Id": "ValetDashboard",
+        "Name": "Dashboard",
+        "Url": "/v2/mgmt/valet/default.aspx",
+        "DependantModules": [],
+        "IsActive": true,
+        "Entries": [
+          {
+            "Id": "History",
+            "Name": "History",
+            "Url": "/v2/mgmt/valet/history.aspx",
+            "DependantModules": [],
+            "IsActive": true
+          },
+          {
+            "Id": "VehicleManagement",
+            "Name": "Vehicle Management",
+            "Url": "/v2/mgmt/parking/default.aspx?1=2",
+            "DependantModules": [ "IsValetVehicleMgmt" ]
+          }
+        ]
+      },
+      {
+        "Id": "ObsoleteDashboard",
+        "Name": "Dashboard",
+        "Url": "/v2/default.aspx?obsoleteclassicmgmtdashboard",
+        "DependantModules": [],
+        "Entries": [
+          {
+            "Id": "SiteMap",
+            "Name": "Site Map",
+            "Url": "/v2/mgmt/global/sitemap.aspx?n=1",
+            "DependantModules": []
+          }
+        ]
+      },
+      {
+        "Id": "Manage",
+        "Name": "Manage",
+        "Url": "/v2/mgmt/Dashboard/ManageHome.aspx",
+        "DependantModules": [],
+        "Entries": [
+          {
+            "Id": "UnitsOccupants",
+            "Name": "Units/Occupants",
+            "Url": "/v2/mgmt/UnitProfile/Searchunit.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "FilteredGroups",
+            "Name": "Filtered Groups",
+            "Url": "/v2/mgmt/FilteredGroups/FilterGroups.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "CustomFields",
+            "Name": "Custom Fields",
+            "Url": "/v2/mgmt/customfields/search.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "Calendar",
+            "Name": "Calendar",
+            "Url": "/v2/mgmt/calendar/Default.aspx",
+            "DependantModules": [ "Calendar" ]
+          },
+          {
+            "Id": "Library",
+            "Name": "Library",
+            "Url": "/V2/Mgmt/Library/Library.aspx",
+            "DependantModules": [ "Library" ]
+          },
+          {
+            "Id": "Employees",
+            "Name": "Employees",
+            "Url": "/v2/mgmt/employees/Default.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "Reservations",
+            "Name": "Reservations",
+            "Url": "/v2/mgmt/amenities/listview.aspx",
+            "DependantModules": [ "Resources" ]
+          },
+          {
+            "Id": "PetRegistry",
+            "Name": "Pet Registry",
+            "Url": "/v2/mgmt/petpark/managepetregistry.aspx",
+            "DependantModules": [ "PetRegistry" ]
+          },
+          {
+            "Id": "ParkingMgmt",
+            "Name": "Parking Mgmt",
+            "Url": "/v2/mgmt/parking/default.aspx",
+            "DependantModules": [ "IsParkingMod" ]
+          },
+          {
+            "Id": "PurchaseOrders",
+            "Name": "Purchase Orders",
+            "Url": "/v2/mgmt/purchaseorders/grid.aspx",
+            "DependantModules": [ "PurchaseOrders" ]
+          },
+          {
+            "Id": "BoardOptions",
+            "Name": "Board Options",
+            "Url": "/v2/mgmt/Board/Default.aspx",
+            "DependantModules": [ "Board" ]
+          },
+          {
+            "Id": "AssetManager",
+            "Name": "Asset Manager",
+            "Url": "/v2/mgmt/assets/dashboard.aspx",
+            "DependantModules": [ "Asset" ]
+          }
+        ]
+      },
+      {
+        "Id": "FrontDesk",
+        "Name": "Front Desk",
+        "Url": "/v2/Mgmt/dashboard/frontdeskhome.aspx",
+        "DependantModules": [ "IsEventsOrDoorOrAddress" ],
+        "Entries": [
+          {
+            "Id": "EventLog",
+            "Name": "Event Log",
+            "Url": "/v2/mgmt/eventlog/grid.aspx",
+            "DependantModules": [ "Events" ]
+          },
+          {
+            "Id": "Instructions",
+            "Name": "Instructions",
+            "Url": "/v2/mgmt/instructions/grid.aspx",
+            "DependantModules": [ "Events" ]
+          },
+          {
+            "Id": "IncidentReports",
+            "Name": "Incident Reports",
+            "Url": "/v2/Mgmt/IncidentReports/IncidentReportSearch.aspx",
+            "DependantModules": [ "IncidentReports" ]
+          },
+          {
+            "Id": "ResidentDirectory",
+            "Name": "Resident Directory",
+            "Url": "/V2/Mgmt/Communicate/ResidentDirectory.aspx?v=1",
+            "DependantModules": [ "Address" ]
+          }
+        ]
+      },
+      {
+        "Id": "Maintenance",
+        "Name": "Maintenance",
+        "Url": "/v2/mgmt/Dashboard/MaintenanceHome.aspx",
+        "DependantModules": [ "IsMaintOrInventoryOrEquipmentOrVendorAddressbookOrRecurringTasks" ],
+        "Entries": [
+          {
+            "Id": "NewRequest",
+            "Name": "New Request",
+            "Url": "/v2/mgmt/Maint/Request.aspx?notused",
+            "DependantModules": [ "Maint" ]
+          },
+          {
+            "Id": "VueNewRequest2",
+            "Name": "Vue new request 2",
+            "Url": "/maintenance2/staff/add",
+            "DependantModules": []
+          },
+          {
+            "Id": "VueMaintenance2",
+            "Name": "Vue maintenance 2",
+            "Url": "/maintenance2/staff/",
+            "DependantModules": []
+          },
+          {
+            "Id": "Inspections",
+            "Name": "Inspections",
+            "Url": "/v2/mgmt/inspections/default.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "NewRequest",
+            "Name": "New Request",
+            "Url": "/v2/mgmt/Maint/Request.aspx?new=",
+            "DependantModules": [ "Maint" ]
+          },
+          {
+            "Id": "SearchRequests",
+            "Name": "Search Requests",
+            "Url": "/v2/mgmt/Maint/Search.aspx",
+            "DependantModules": [ "Maint" ]
+          },
+          {
+            "Id": "Inventory",
+            "Name": "Inventory",
+            "Url": "/v2/mgmt/Inventory/Default.aspx",
+            "DependantModules": [ "Inventory" ]
+          },
+          {
+            "Id": "Equipment",
+            "Name": "Equipment",
+            "Url": "/v2/Mgmt/Equipment/Default.aspx",
+            "DependantModules": [ "Equipment" ]
+          },
+          {
+            "Id": "VendorsDirectory",
+            "Name": "Vendors Directory",
+            "Url": "/v2/mgmt/vendorcontractor/default.aspx",
+            "DependantModules": [ "IsVendorAddressbookMod" ]
+          },
+          {
+            "Id": "RecurringTasks",
+            "Name": "Recurring Tasks",
+            "Url": "/v2/mgmt/RecurringTasks/Default.aspx",
+            "DependantModules": [ "RecurringTasks" ]
+          },
+          {
+            "Id": "MaintReports",
+            "Name": "Maint Reports",
+            "Url": "/v2/mgmt/maint/default.aspx?i=3",
+            "DependantModules": [ "Maint" ]
+          },
+          {
+            "Id": "Replicate",
+            "Name": "Replicate",
+            "Url": "/v2/Mgmt/maint/ReplicateChooseReq.aspx",
+            "DependantModules": [ "Maint" ]
+          }
+        ]
+      },
+      {
+        "Id": "Communicate",
+        "Name": "Communicate",
+        "Url": "/v2/mgmt/Dashboard/CommunicateHome.aspx",
+        "DependantModules": [],
+        "Entries": [
+          {
+            "Id": "SendEmail",
+            "Name": "Send Email",
+            "Url": "/email/staff/",
+            "DependantModules": [ "Address" ]
+          },
+          {
+            "Id": "SendEmail",
+            "Name": "Send Email",
+            "Url": "/v2/mgmt/Email/SendEmailFrame.aspx",
+            "DependantModules": [ "Address" ]
+          },
+          {
+            "Id": "SendEmailClassic",
+            "Name": "Send Email - Classic",
+            "Url": "/v2/mgmt/Email/SendEmailFrame.aspx?q=ignore",
+            "DependantModules": [ "Address" ]
+          },
+          {
+            "Id": "Library",
+            "Name": "Library",
+            "Url": "/V2/Mgmt/Library/Library.aspx?i=2",
+            "DependantModules": [ "Library" ]
+          },
+          {
+            "Id": "ScrollingAnncmt",
+            "Name": "Scrolling Anncmt.",
+            "Url": "/v2/mgmt/announcements/viewscrollingannouncements.aspx",
+            "DependantModules": [ "Announcement" ]
+          },
+          {
+            "Id": "EmerBroadcast",
+            "Name": "Emer. Broadcast",
+            "Url": "/v2/Mgmt/VoiceBroadcast/CreateBroadcast.aspx?ref=nav",
+            "DependantModules": []
+          },
+          {
+            "Id": "Survey",
+            "Name": "Survey",
+            "Url": "/v2/mgmt/survey/default.aspx",
+            "DependantModules": [ "Survey" ]
+          },
+          {
+            "Id": "PublicDisplay",
+            "Name": "Public Display",
+            "Url": "/v2/Mgmt/EventLog/Default.aspx",
+            "DependantModules": [ "Events" ]
+          },
+          {
+            "Id": "ResidentDirectory",
+            "Name": "Resident Directory",
+            "Url": "/V2/Mgmt/Communicate/ResidentDirectory.aspx",
+            "DependantModules": [ "Address" ]
+          },
+          {
+            "Id": "BuildingDirectory",
+            "Name": "Building Directory",
+            "Url": "/v2/mgmt/communicate/buildingdirectory.aspx?t=1",
+            "DependantModules": []
+          },
+          {
+            "Id": "SocialAccounts",
+            "Name": "Social Accounts",
+            "Url": "/v2/mgmt/socialaccounts/default.aspx",
+            "DependantModules": [ "SocialAccounts" ]
+          }
+        ]
+      },
+      {
+        "Id": "ResidentSite",
+        "Name": "Resident Site",
+        "Url": "/v2/mgmt/dashboard/residentportalhome.aspx",
+        "DependantModules": [],
+        "Entries": [
+          {
+            "Id": "ApprovePostings",
+            "Name": "Approve Postings",
+            "Url": "/V2/Mgmt/Postings/ApprovePostings.aspx?t=1",
+            "DependantModules": [ "ResidentPostings" ]
+          },
+          {
+            "Id": "LocalBusinesses",
+            "Name": "Local Businesses",
+            "Url": "/v2/mgmt/providers/directory.aspx",
+            "DependantModules": [ "ServicesOrVendorList", "DirectoryOfLocalBusinesses" ]
+          },
+          {
+            "Id": "OffersServices",
+            "Name": "Offers & Services",
+            "Url": "/v2/mgmt/providers/ExternalOffers.aspx",
+            "DependantModules": [ "ProviderServicesOrOffers" ]
+          },
+          {
+            "Id": "PetPark",
+            "Name": "Pet Park",
+            "Url": "/v2/mgmt/petpark/manage.aspx",
+            "DependantModules": [ "PetPark" ]
+          },
+          {
+            "Id": "ViewResidentSite",
+            "Name": "View Resident Site",
+            "Url": "/v2/mgmt/Dashboard/RedirectToTenant.aspx",
+            "DependantModules": []
+          }
+        ]
+      },
+      {
+        "Id": "Settings",
+        "Name": "Settings",
+        "Url": "/v2/mgmt/dashboard/setuphome.aspx",
+        "DependantModules": []
+      },
+      {
+        "Id": "Other",
+        "Name": "Other",
+        "Url": "/v2/mgmt/Dashboard/OtherHome.aspx",
+        "DependantModules": [],
+        "Entries": [
+          {
+            "Id": "KeyLink",
+            "Name": "KeyLink",
+            "Url": "/v2/mgmt/keylink/keymap.aspx",
+            "DependantModules": [ "KeyLink" ]
+          },
+          {
+            "Id": "KnowYourResidents",
+            "Name": "Know Your Residents",
+            "Url": "/v2/mgmt/Games/KnowYourResidents.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "Payments",
+            "Name": "Payments",
+            "Url": "/v2/mgmt/Payments/default.aspx",
+            "DependantModules": [ "FacilityCreditCardPayment" ]
+          },
+          {
+            "Id": "Alterations",
+            "Name": "Alterations",
+            "Url": "/v2/mgmt/alterations/default.aspx",
+            "DependantModules": [ "Alterations" ]
+          },
+          {
+            "Id": "ResidentPassports",
+            "Name": "Resident Passports",
+            "Url": "/v2/Mgmt/Passport/PassportResidents.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "ReferenceSignatures",
+            "Name": "Reference Signatures",
+            "Url": "/v2/Mgmt/EventLog/SearchRefSig.aspx",
+            "DependantModules": [ "ReferenceSignatures" ]
+          },
+          {
+            "Id": "IdCardsAndLabels",
+            "Name": "ID Cards and Labels",
+            "Url": "/V2/mgmt/Dashboard/IdCardsAndLabelsHome.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "ResidentIdVerify",
+            "Name": "Resident Id Verify",
+            "Url": "/v2/mgmt/dashboard/ResidentIdVerify.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "ResidentInsurance",
+            "Name": "Resident Insurance",
+            "Url": "/v2/mgmt/Insurance/Dashboard.aspx",
+            "DependantModules": [ "InsuranceCompliance" ]
+          }
+        ]
+      },
+      {
+        "Id": "Reports",
+        "Name": "Reports/Data",
+        "Url": "/v2/mgmt/Dashboard/ReportsHome.aspx",
+        "DependantModules": [],
+        "Entries": [
+          {
+            "Id": "Analytics",
+            "Name": "Analytics",
+            "Url": "/v2/Mgmt/Reports/Metricshome.aspx",
+            "DependantModules": []
+          },
+          {
+            "Id": "Reports",
+            "Name": "Reports",
+            "Url": "/v2/mgmt/maint/default.aspx?i=2",
+            "DependantModules": []
+          },
+          {
+            "Id": "DownloadData",
+            "Name": "Download Data",
+            "Url": "/v2/mgmt/export/default.aspx",
+            "DependantModules": []
+          }
+        ]
+      }
+    ]
+  }
+}
